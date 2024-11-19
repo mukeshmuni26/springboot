@@ -1,0 +1,7 @@
+FROM ubuntu AS builder 
+
+WORKDIR /spring_app 
+
+COPY . . 
+
+RUN apt 
